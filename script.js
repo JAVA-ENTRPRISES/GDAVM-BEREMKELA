@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img src=".image/LOGO.jpeg" alt="Logo" class="footer-logo">
                                     <span class="school-name">GURU DRONACHARYA VIDYA MANDIR</span>
 
-                <p>Empowering students with world-class education and moral values since 1995. A tradition of excellence in Sambalpur.</p>
+                <p>Empowering students with world-class education and moral values. A tradition of excellence.</p>
             </div>
 
             <div class="footer-col">
