@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo-area">
-                <img src="LOGO.jpeg" alt="School Logo" class="school-logo">
+                <img src="image/LOGO.jpeg" alt="School Logo" class="school-logo">
                 <div class="logo-text">
                     <span class="school-name">GURU DRONACHARYA VIDYA MANDIR</span>
                     
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <footer class="main-footer">
         <div class="footer-grid">
             <div class="footer-col">
-                <img src="LOGO.jpeg" alt="Logo" class="footer-logo">
+                <img src="image/LOGO.jpeg" alt="Logo" class="footer-logo">
                                     <span class="school-name">GURU DRONACHARYA VIDYA MANDIR</span>
 
                 <p>Empowering students with world-class education and moral values. A tradition of excellence.</p>
