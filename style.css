@@ -752,3 +752,123 @@ footer { background: var(--primary); color: white; padding: 60px 5%; margin-top:
     margin-bottom: 8px;
     color: #002147;
 }
+/* ===== DISCLOSURE PAGE ===== */
+
+.disclosure {
+    padding: 40px 0;
+}
+
+/* MAIN TITLE */
+.disclosure h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* SECTION HEADINGS (A, B, C...) */
+.disclosure-header {
+    text-align: center;
+    margin: 40px 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* TABLE CONTAINER (CARD LOOK FOR ALL TABLES) */
+.table-container,
+.disclosure-table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* APPLY SAME STYLE TO ALL TABLES */
+.info-table,
+.disclosure-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* CAPTION (FOR PART A) */
+.info-table caption {
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+    background: #f1f5f9;
+    color: #002147;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+/* TABLE HEADER */
+.info-table thead,
+.disclosure-table thead {
+    background: #dceaf6;
+}
+
+.info-table th,
+.disclosure-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+
+/* TABLE BODY */
+.info-table td,
+.disclosure-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* REMOVE SIDE BORDERS */
+.info-table td,
+.info-table th,
+.disclosure-table td,
+.disclosure-table th {
+    border-left: none;
+    border-right: none;
+}
+
+/* ROW HOVER */
+.info-table tbody tr:hover,
+.disclosure-table tbody tr:hover {
+    background: #f5f9ff;
+}
+
+/* ALTERNATE ROW COLOR */
+.info-table tbody tr:nth-child(even),
+.disclosure-table tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+
+/* BUTTON STYLE */
+.doc-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #002147;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.doc-btn:hover {
+    background: #004080;
+}
+
+/* RESULT GRID (X & XII TABLES SIDE BY SIDE) */
+.result-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .info-table,
+    .disclosure-table {
+        font-size: 12px;
+    }
+}
