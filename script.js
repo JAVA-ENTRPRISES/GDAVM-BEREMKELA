@@ -12,11 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
                 <li><a href="admission.html">Admission</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="facilities.html">Facilities</a></li>
-                <li><a href="mandatory.html">Disclosure</a></li>
+                <li><a href="mandatory.html">Mandatory Disclosure</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
                     <li><a href="admission.html">Admissions</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
+                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="mandatory.html">Mandatory Disclosure</a></li>
                     <li><a href="facilities.html">Infrastructure</a></li>
                 </ul>
